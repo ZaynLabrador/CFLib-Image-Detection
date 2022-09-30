@@ -61,6 +61,7 @@ dependencies {
     implementation 'com.github.NoahBres:MeepMeep:2.0.0'
     implementation 'com.acmerobotics.dashboard:dashboard:0.4.4'
     implementation 'org.apache.commons:commons-math3:3.6.1'
+    implementation 'org.openftc:easyopencv:1.5.2'
 }
 
 afterEvaluate {
