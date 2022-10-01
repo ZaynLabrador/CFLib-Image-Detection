@@ -26,7 +26,7 @@ class ColorSensor {
     fun readSensor(): SleeveColor{
         if (colors.blue > colors.red && colors.blue > colors.green) {
             sleeveColor = SleeveColor.BLUE
-        } else if (colors.green > colors.red && colors.green > colors.blue) {
+        } else if (colors.green > colors.red) {
             sleeveColor = SleeveColor.GREEN
         } else {
             sleeveColor = SleeveColor.RED
